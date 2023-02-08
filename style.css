@@ -4,3 +4,35 @@ ul {
 a {
     text-decoration: none;
 }
+body {
+    display: flex;
+    flex-direction: column;
+    height:100vh;
+}
+.headerLinks {
+    display:flex;
+}
+
+.header {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding:0 60px; */
+}
+.showcase {
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+}
