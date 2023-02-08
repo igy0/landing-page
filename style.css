@@ -3,36 +3,59 @@ ul {
 }
 a {
     text-decoration: none;
+    color:#eee;
 }
 body {
     display: flex;
     flex-direction: column;
     height:100vh;
+    margin:0;
+
+}
+/*can probably group header and showcase to align them up, look at modal example*/
+.top {
+    display: flex;
+    flex-direction: column;
+    
 }
 .headerLinks {
     display:flex;
+    gap:8px;
 }
 
 .header {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    /* padding:0 60px; */
+    background-color:#1F2937;
+    color:#eee;
 }
 .showcase {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    
+    background-color:#1F2937;
+    color:#eee;
 }
 .info {
     display: flex;
-    flex-direction: column;
-    
+    align-self:center;
+}
+.quote {
+    align-self: center;
 }
 
+.signup {
+    align-self:center;
+}
 .body {
     display: flex;
     flex-direction: column;
     flex:1;
+}
+
+.footer {
+    text-align:center;
+    background-color:#1F2937;
+    color:#eee;
 }
