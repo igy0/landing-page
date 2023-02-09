@@ -10,6 +10,7 @@ body {
     flex-direction: column;
     height:100vh;
     margin:0;
+    overflow-y: auto;
 
 }
 /*can probably group header and showcase to align them up, look at modal example*/
@@ -33,25 +34,67 @@ body {
 .showcase {
     display:flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: center;
     background-color:#1F2937;
     color:#eee;
+    gap:50px;
+    padding:32px;
+    flex-basis:400px;
 }
 .info {
     display: flex;
     align-self:center;
+    gap:40px;
+    text-align:center;
+    justify-content: center;
+}
+.infowithheader{
+    flex-basis:400px;
+}
+.info .stage {
+    align-self:center;
+}
+.infoHeader{
+    text-align: center;
+    padding:40px;
+}
+.quoteSection {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    flex-basis:400px;
+    justify-content: center;
 }
 .quote {
-    align-self: center;
+    width:600px;
+}
+.author {
+    text-align:right;
 }
 
 .signup {
-    align-self:center;
+    display: flex;
+    align-items:center;
+    flex-basis:400px;
+    justify-content: center;
+}
+.signupLeft,.signupRight {
+    background-color: #3882f6;
+    padding:60px;
+}
+.signupRight{
+    padding:67.75px;
 }
 .body {
     display: flex;
     flex-direction: column;
     flex:1;
+}
+.bodyQ {
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: #e5e7eb;
 }
 
 .footer {
