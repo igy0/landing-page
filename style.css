@@ -11,6 +11,7 @@ body {
     height:100vh;
     margin:0;
     overflow-y: auto;
+    font-family: "Roboto", "Arial";
 
 }
 /*can probably group header and showcase to align them up, look at modal example*/
@@ -23,6 +24,10 @@ body {
     display:flex;
     gap:8px;
 }
+#headerLogo {
+    font-size:24px;
+    color:#F9FAf8;
+}
 
 .header {
     display:flex;
@@ -30,6 +35,15 @@ body {
     justify-content: space-around;
     background-color:#1F2937;
     color:#eee;
+}
+#showcaseMain {
+    font-size:48px;
+    font-weight: 800;
+    color:#f9faf8;
+}
+#showcaseSub {
+    font-size:18px;
+    color:#e5e7eb;
 }
 .showcase {
     display:flex;
@@ -57,6 +71,9 @@ body {
 .infoHeader{
     text-align: center;
     padding:40px;
+    font-size:36px;
+    font-weight:800;
+    color:#1f2937;
 }
 .quoteSection {
     display: flex;
@@ -67,9 +84,15 @@ body {
 }
 .quote {
     width:600px;
+    font-size:30px;
+    font-style:italic;
+    color:#1f2937;
 }
 .author {
     text-align:right;
+    font-size:20px;
+    padding:5px;
+    font-weight: bold;
 }
 
 .signup {
@@ -81,6 +104,9 @@ body {
 .signupLeft,.signupRight {
     background-color: #3882f6;
     padding:60px;
+    color:#eee;
+    border-radius: 25px;
+    /* need to combine these somehow to be able to apply rounded corners */
 }
 .signupRight{
     padding:67.75px;
@@ -101,4 +127,21 @@ body {
     text-align:center;
     background-color:#1F2937;
     color:#eee;
+}
+.button {
+    padding: 6px 24px;
+    border-radius:8px;
+    background-color: #3882f6;
+    color:#eee;
+    border-color:white;
+}
+.button:hover {
+    background-color: #eee;
+    color:#3882f6;
+}
+.signupBig {
+    font-size:20px;
+}
+img {
+    border-radius: 25px;
 }
