@@ -22,7 +22,7 @@ body {
 }
 .headerLinks {
     display:flex;
-    gap:8px;
+    gap:16px;
 }
 #headerLogo {
     font-size:24px;
@@ -40,10 +40,12 @@ body {
     font-size:48px;
     font-weight: 800;
     color:#f9faf8;
+    margin-bottom:0;
 }
 #showcaseSub {
     font-size:18px;
     color:#e5e7eb;
+    
 }
 .showcase {
     display:flex;
@@ -55,6 +57,7 @@ body {
     padding:32px;
     flex-basis:400px;
 }
+
 .info {
     display: flex;
     align-self:center;
@@ -71,7 +74,7 @@ body {
 .infoHeader{
     text-align: center;
     padding:40px;
-    font-size:36px;
+    font-size:30px;
     font-weight:800;
     color:#1f2937;
 }
@@ -95,21 +98,20 @@ body {
     font-weight: bold;
 }
 
-.signup {
+ .signup {
     display: flex;
     align-items:center;
     flex-basis:400px;
     justify-content: center;
 }
-.signupLeft,.signupRight {
+.window {
+    display: flex;
     background-color: #3882f6;
-    padding:60px;
+    padding: 40px 70px;
+    border-radius: 10px;
     color:#eee;
-    border-radius: 25px;
-    /* need to combine these somehow to be able to apply rounded corners */
-}
-.signupRight{
-    padding:67.75px;
+    gap:50px;
+    align-items: center;
 }
 .body {
     display: flex;
@@ -129,6 +131,7 @@ body {
     color:#eee;
 }
 .button {
+    margin-top: 15px;
     padding: 6px 24px;
     border-radius:8px;
     background-color: #3882f6;
@@ -141,7 +144,12 @@ body {
 }
 .signupBig {
     font-size:20px;
+    font-weight: 800;
+}
+.signupSmall {
+    width:400px;
 }
 img {
     border-radius: 25px;
+    border: 4px solid #3882f6;
 }
